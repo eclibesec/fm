@@ -4,7 +4,7 @@ $current_filename = basename($_SERVER['SCRIPT_FILENAME']);
 
 // Default credentials (username: admin, password: admin123)
 $default_username = 'admin';
-$default_password_hash = '$2a$12$85NB5b/kZqmdzuDhPK0UOOwDsRcTKg1vK8KBxCUZOWiLF85Z5oPhS'; // bcrypt hash of "admin123"
+$default_password_hash = '$2a$12$RN3hs6K7OaY8RVEW4hPvr.cMvfDHYQDn75aFSOaW3T0Af4v5qwsJO'; // bcrypt hash of "admin123"
 
 // Generate or retrieve chat session ID based on IP
 if (!isset($_SESSION['chat_session_id'])) {
